@@ -1,8 +1,6 @@
 module github.com/taubyte/tau
 
-go 1.22.5
-
-toolchain go1.22.6
+go 1.23.0
 
 require (
 	github.com/alecthomas/units v0.0.0-20231202071711-9a357b53e9c9
@@ -48,7 +46,7 @@ require (
 	golang.org/x/crypto v0.26.0
 	golang.org/x/exp v0.0.0-20240613232115-7f521ea00fb8
 	golang.org/x/net v0.26.0
-	golang.org/x/oauth2 v0.22.0
+	golang.org/x/oauth2 v0.27.0
 	golang.org/x/sys v0.23.0
 	golang.org/x/term v0.23.0
 	gopkg.in/go-playground/webhooks.v5 v5.17.0
