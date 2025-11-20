@@ -1,8 +1,6 @@
 module github.com/taubyte/tau
 
-go 1.22.5
-
-toolchain go1.22.6
+go 1.24.0
 
 require (
 	github.com/alecthomas/units v0.0.0-20231202071711-9a357b53e9c9
@@ -45,12 +43,12 @@ require (
 	github.com/urfave/cli/v2 v2.25.7
 	go.uber.org/zap v1.27.0
 	go4.org v0.0.0-20230225012048-214862532bf5
-	golang.org/x/crypto v0.26.0
+	golang.org/x/crypto v0.45.0
 	golang.org/x/exp v0.0.0-20240613232115-7f521ea00fb8
-	golang.org/x/net v0.26.0
+	golang.org/x/net v0.47.0
 	golang.org/x/oauth2 v0.22.0
-	golang.org/x/sys v0.23.0
-	golang.org/x/term v0.23.0
+	golang.org/x/sys v0.38.0
+	golang.org/x/term v0.37.0
 	gopkg.in/go-playground/webhooks.v5 v5.17.0
 	gopkg.in/yaml.v3 v3.0.1
 	gotest.tools/v3 v3.5.1
@@ -93,8 +91,8 @@ require (
 	github.com/vbauerster/mpb/v8 v8.7.5
 	github.com/whyrusleeping/multiaddr-filter v0.0.0-20160516205228-e903e4adabd7
 	go.starlark.net v0.0.0-20240520160348-046347dcd104
-	golang.org/x/mod v0.18.0
-	golang.org/x/text v0.17.0
+	golang.org/x/mod v0.29.0
+	golang.org/x/text v0.31.0
 	google.golang.org/grpc v1.64.1
 	google.golang.org/protobuf v1.34.2
 	gopkg.in/ini.v1 v1.67.0
@@ -283,8 +281,9 @@ require (
 	go.uber.org/fx v1.20.1 // indirect
 	go.uber.org/mock v0.4.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	golang.org/x/sync v0.8.0 // indirect
-	golang.org/x/tools v0.22.0 // indirect
+	golang.org/x/sync v0.18.0 // indirect
+	golang.org/x/telemetry v0.0.0-20251008203120-078029d740a8 // indirect
+	golang.org/x/tools v0.38.0 // indirect
 	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028 // indirect
 	gonum.org/v1/gonum v0.14.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240318140521-94a12d6c2237 // indirect
