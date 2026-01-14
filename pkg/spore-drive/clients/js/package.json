@@ -37,7 +37,7 @@
   "dependencies": {
     "@bufbuild/protobuf": "1.4.2",
     "@connectrpc/connect": "1.4.0",
-    "@connectrpc/connect-node": "1.4.0",
+    "@connectrpc/connect-node": "2.1.1",
     "@types/cli-progress": "^3.11.6",
     "@types/tar": "^6.1.13",
     "axios": "^1.7.7",
